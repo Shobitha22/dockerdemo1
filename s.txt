@@ -15,3 +15,8 @@ d imagrs
 d run shobitha22/helloapp
 
 
+
+
+git add Jenkinsfile
+git commit -m "Added Jenkins pipeline"
+git push
