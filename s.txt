@@ -1,0 +1,17 @@
+docker build -t calculatorjava .
+docker images
+docker tag calculatorjava shobitha22/clacapp:v1.0
+docker images
+docker login 
+docker push shobitha22/clacapp:v1.0
+
+docker build -t shobitha22/helloapp:v1.0
+docker images
+docker push shobitha22/helloapp:v1.0
+
+docker rmi shobitha22/helloapp:v1.0    to remove or 
+docker pull shobitha22/helloapp
+d imagrs
+d run shobitha22/helloapp
+
+
